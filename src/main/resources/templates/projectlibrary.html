@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments/fragments :: head"></head>
+<body>
+	<a id = "top"></a>
+<!-- Navigation bar -->
+	<div th:replace="fragments/fragments :: navbar"></div>
+
+<!-- jumbotron -->
+	<div class="jumbotron">
+    		<h1 class="animated fadeInDown">Project Library</h1>
+		</div>
+<!-- End of jumbotron -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<img class="img-fluid" src="GoogleMappAppAPI.png">
+				<center><br><a  href="GoogleMaps" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Google Maps App</a></center><br>
+			</div>
+			<div class="col">
+				<img class="img-fluid" src="WeatherApp.png">
+				<center><br><a href="WeatherApp" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" name="Submit" value="Submit">Weather App</a></center><br>
+			</div>
+		</div>
+	</div>
+
+<br><br>
+<footer th:replace="fragments/fragments :: footer"></footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments/fragments :: head"></head>
+<body>
+	<a id = "top"></a>
+<!-- Navigation bar -->
+	<div th:replace="fragments/fragments :: navbar"></div>
+
+<!-- jumbotron -->
+	<div class="jumbotron">
+    		<h1 class="animated fadeInDown">Contact Me</h1>
+		</div>
+<!-- End of jumbotron -->
+<div class="container">
+		<form role="form" action="mailto:kaleyfry@gmail.com" method="get" enctype="text/plain">
+		    <div class="form-group">
+		        <label for="emailinput"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<h4>E-mail</h4></label>
+		        <input class="form-control" type="email" id="emailinput" placeholder="Input email">
+		    </div>
+		    <div class="form-group">
+		        <label for="messageinput"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;<h4>Message</h4></label>
+		        <textarea class="form-control" id="messageinput" placeholder="Input message" rows="3"></textarea>
+		    </div>
+		    <br/>
+		    <div class="text-left">
+		        <button type="submit" class="btn btn-secondary btn-lg">
+		            <span class="glyphicon glyphicon-upload"></span>Send
+		        </button>
+		    </div>
+		</form>
+</div>
+<br><br>
+<footer th:replace="fragments/fragments :: footer"></footer>
+</body>
+</html>

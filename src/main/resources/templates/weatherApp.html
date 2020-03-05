@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments/fragments :: head"></head>
+<body>
+	<a id = "top"></a>
+<!-- Navigation bar -->
+	<div th:replace="fragments/fragments :: navbar"></div>
+
+<!-- jumbotron -->
+	<div class="jumbotron">
+    		<h1 class="animated fadeInDown"> About me</h1>
+		</div>
+<!-- End of jumbotron -->
+	<div class="container">
+		<div class="row">
+		    <div class="col"><center>
+		    <a href="https://github.com/Kaleyfry/WeatherApplication" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">View Code</a>
+	    	<a href="https://kaleyfry-weatherapplication.herokuapp.com/" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Test my app</a>
+	    	<br><br>
+	    	<p>Weather app built on Open Weather Map API</p></center>
+		    <center><img src="WeatherApp.png" alt="Kaley Fry Banner image" style="width:50%;"></div>
+		    </center><div class="w-100"></div>
+		</div>
+	</div>
+
+<br><br>
+<footer th:replace="fragments/fragments :: footer"></footer>
+</body>
+</html>

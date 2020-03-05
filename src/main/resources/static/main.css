@@ -1,0 +1,42 @@
+jumbotron { 
+	padding: 10%;
+	background-size: cover;
+	width: 100%;
+}
+
+html, body {  
+  margin: 0em;
+  font-family: monospace;
+  background: white;  
+  color: white;  
+  scroll-behavior: smooth;
+}
+
+h1, p {  
+  color: #808080; 
+  align-content: center;
+}
+
+button {
+    background: #EFE2BA;
+    margin: 0px auto;
+    display: block;
+    padding: 5px 10px;
+    border: none;
+}
+
+hr {
+width: 50%;
+height: 20px;
+background-color: grey;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+border-width: 2px;
+border-color: grey;
+}
+
+footer {
+	margin: 10px;
+}

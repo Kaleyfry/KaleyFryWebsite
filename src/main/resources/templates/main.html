@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments/fragments :: head"></head>
+<body>
+	<a id = "top"></a>
+<!-- Navigation bar -->
+	<div th:replace="fragments/fragments :: navbar"></div>
+
+<!-- jumbotron -->
+	<div class="jumbotron">
+    		<h1 class="animated fadeInDown"> Leader, Developer, and Community Builder.</h1>
+		</div>
+<!-- End of jumbotron -->
+
+	<div class="container features">
+    	<div class="row">
+    		<div class="col-sm-4 align-self-center">
+    	    <p> I am a passionate leader who has devoted my life to building community connections and supporting others through innovation. In my work experience I have taken on many different roles to expand my leadership skills and passion for helping others. From working in a call center to helping food stamp recipients in crisis to directing a national nonprofit to positively impact a community of over 6 million youth in LGBTQ+ families, my skills and passions grew exponentially and I have had to learn how to become a jack-of-all-trades. Above all else, a few of my skills have been sought after and utilized: my drive for innovation, my innate skill for relationship building, my creative problem-solving skills, my passion for working with others, and my vision for building efficient and effective systems with a focus on the user experience. From my experiences and passions, I have launched myself into the tech industry and am eager to find my place within it. As a passionate learner with a history of rising to any occasion, I know the tech industry will be a great fit for me to continue to grow and develop my skills to make an impact and help others.</p>
+    		</div>
+    		<div class="col-xs-12 col-sm-8">
+    	    	<img class="rounded-circle" alt="Picture of Kaley Fry" src="KF.png" style="width:90%;">
+			</div>
+    	</div>
+    	<br><hr><br>
+
+    	<h1><center>Projects</center></h1><br>
+
+		<div class="container-fluid">
+	    	<div class="row">
+	        	<div class="col">
+		            <img class="img-fluid" src="GoogleMappAppAPI.png">
+		    	    <center><br><a  href="GoogleMaps" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Google Maps App</a></center><br>
+	    		</div>
+	    		<div class="col">
+		    	    <img class="img-fluid" src="WeatherApp.png">
+		    	    <center><br><a href="WeatherApp" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" name="Submit" value="Submit">Weather App</a></center><br>
+	    		</div>
+	    	</div>
+		</div>
+	</div>
+<br><br>
+<footer th:replace="fragments/fragments :: footer"></footer>
+</body>
+</html>
